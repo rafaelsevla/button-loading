@@ -1,5 +1,11 @@
-# button-loading
+# Button Loading
 
-A library of React components created using `create-react-app`.## Installation
-Run the following command:
-`npm install @rafaelsevla/button-loading`
+## How to use it ?
+
+```jsx
+import ButtonLoading from '@rafaelsevla/button-loading';
+
+...
+<ButtonLoading loading color='primary' />
+...
+```

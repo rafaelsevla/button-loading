@@ -6,8 +6,8 @@ const colors = {
   danger: '#9c0000'
 }
 
-const ButtonLoading = ({ title, type, loading, styles, spinnerBackground, spinnerColor }) => (
-  <Button type={colors[type]} style={styles}>
+const ButtonLoading = ({ title, color, loading, styles, spinnerBackground, spinnerColor }) => (
+  <Button color={colors[color]} style={styles}>
     {loading ? (
         <Spinner
           spinnerBackground={spinnerBackground}
@@ -20,7 +20,7 @@ const ButtonLoading = ({ title, type, loading, styles, spinnerBackground, spinne
 
 ButtonLoading.defaultProps = {
   title: 'Click in me',
-  type: 'primary',
+  color: 'primary',
   loading: false,
   styles: {},
   spinnerBackground: '#f3f3f3',
@@ -40,7 +40,7 @@ const Button = styled.button`
   min-width: 185px;
   min-height: 70px;
   color: #fff;
-  background-color: ${props => props.type};
+  background-color: ${props => props.color};
   border: ${props => props.type} solid 1px;
 
   &:hover {
