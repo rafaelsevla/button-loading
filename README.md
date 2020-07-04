@@ -1,6 +1,8 @@
 # Button Loading
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/ktduxt4yty7btrdmrgof.gif)
+<p align="center">
+  <img alt="button loadings" src="https://dev-to-uploads.s3.amazonaws.com/i/ktduxt4yty7btrdmrgof.gif"/></a>
+</p>
 
 ## How to use it ?
 
